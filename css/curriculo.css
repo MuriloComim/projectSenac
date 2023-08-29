@@ -1,0 +1,108 @@
+body{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(189, 189, 189);
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    color: white;
+    text-align: left;
+    padding: 15px;
+    display: inline-block;
+    width: 100%;
+}
+
+ul li{
+    display: block;
+    margin-bottom: 15px;
+}
+
+nav ul li div{
+    border-radius: 20px;
+    border-style: solid;
+    border-color: gray;
+    height: 7px;
+}
+
+nav ul li div div{
+    background-color: rgb(19, 97, 12);
+    border: 0;
+    padding: 0;
+    height: 100%;
+    
+}
+
+.Idade{
+    text-align: center;
+}
+
+.CSS{
+    width: 50%;
+}
+
+.JAVA{
+    width: 65%;
+}
+
+.HTML{
+    width: 55%;
+}
+
+.C{
+    width: 30%;
+}
+
+nav{
+    float: right;
+}
+
+.DivInformacoes{
+    display: inline-block;
+    border: 0;
+    border-right: 10px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: gray;
+    background-color: rgb(37, 37, 37);
+    padding-right: 10px;
+    margin-right: 50px;
+    height: 303px;
+}
+
+.DivContato{
+    display: inline-block;
+    border: 0;
+    border-right: 10px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: gray;
+    background-color: rgb(37, 37, 37);
+    padding-right: 10px;
+    float: right;
+    height: 303px;
+    width: 726px;
+    margin-right: 50px;
+}
+
+.Foto{
+    height: 300px;
+    margin-left: 100px;
+}
+
+.Nome{
+    border: 0;
+    padding: 0;
+    font-size: 50px;
+    background:none;
+    margin-bottom: 2px;
+}
+
+.Contato{
+    border: 0;
+    padding: 0;
+    font-size: 50px;
+    background:none;
+    margin-bottom: 2px; 
+    text-align: center;
+}
