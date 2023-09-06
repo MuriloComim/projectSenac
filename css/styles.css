@@ -1,0 +1,161 @@
+body{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(189, 189, 189);
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    display: inline-block;
+}
+
+ul li{
+    display: block;
+    margin-bottom: 15px;
+}
+
+.ContainerUl ul li div{
+    border-radius: 20px;
+    border-style: solid;
+    border-color: gray;
+    height: 7px;
+}
+
+.ContainerUl ul li div div{
+    background-color: rgb(19, 97, 12);
+    border: 0;
+    padding: 0;
+    height: 100%;
+    
+}
+
+.Idade{
+    text-align: center;
+}
+
+.CSS{
+    width: 50%;
+}
+
+.JAVA{
+    width: 65%;
+}
+
+.HTML{
+    width: 55%;
+}
+
+.C{
+    width: 30%;
+}
+
+.ContainerUl{
+    float: right;
+}
+
+.ContainerDivHeader{
+    padding: 15px;
+    color: white;
+    text-align: left;
+}
+
+.ContainerMain div{
+    border: 0;
+    border-right: 10px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: gray;
+    background-color: rgb(37, 37, 37);
+    padding-right: 10px;
+    text-align: center;
+    padding: 5px;
+    color: rgb(196, 196, 196);
+}
+
+.ContainerMain div h1{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(70, 70, 70);
+    font-size: 35px;
+}
+
+.ContainerMain {
+    margin: auto;
+    padding: 15px;
+}
+
+.DivInformacoes img{
+    border-radius: 20px;
+}
+
+.DivInformacoes{
+    display: inline-block;
+    border: 0;
+    border-right: 10px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: gray;
+    background-color: rgb(37, 37, 37);
+    padding-right: 10px;
+    margin-right: 50px;
+    height: 303px;
+}
+
+a:-webkit-any-link {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.DivContato{
+    display: inline-block;
+    border: 0;
+    border-right: 10px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: gray;
+    background-color: rgb(37, 37, 37);
+    padding-right: 10px;
+    height: 303px;
+    width: 726px;
+    text-align: center;
+    float: right;
+    font-size: 16px;
+}
+
+.Foto{
+    height: 300px;
+    margin-left: 100px;
+}
+
+.Nome{
+    border: 0;
+    padding: 0;
+    font-size: 50px;
+    background:none;
+    margin-bottom: 2px;
+}
+
+.Contato{
+    border: 0;
+    padding: 0;
+    font-size: 50px;
+    background:none;
+    margin-bottom: 2px; 
+    text-align: center;
+}
+
+li a{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    display: block;
+}
+
+.ContainerFooter{
+    background-color: rgb(37, 37, 37);
+    text-align: center;
+    padding: 5px;
+    color: rgb(196, 196, 196);
+}
